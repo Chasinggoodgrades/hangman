@@ -1,5 +1,9 @@
+#Welcome to Krispy Kreme Hangman
+#My name is Chase P
+#How many dozens can i get for you today?
+
 def get_puzzle():
-    pass
+    return "krispykreme"
 
 def get_solved(puzzle, guesses):
     solved = ""
@@ -13,15 +17,31 @@ def get_solved(puzzle, guesses):
     return solved
 
 def get_guess():
-    pass
+    letter = input("Guess a letter: ")
+    return letter
 
 def display_board(solved):
-    pass
-
+    print()
+    print("################")
+    print()
+    print(solved)
+    print()
+    print("################")
 def show_result():
-    pass
+    print("You win!")
     
 def play():
-    pass
+    puzzle = get_puzzle()
+    guesses = ""
+    solved = get_solved(puzzle,guesses)
+    display_board(solved)
+
+    while solved != puzzle:
+        guesses += get_guess()
+        solved = get_solved(puzzle, guesses)
+        display_board(solved)
+
+    show_result()
+    
     
 play()
