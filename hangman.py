@@ -7,10 +7,9 @@ import random
 
 
 
-
 def get_puzzle():
-    os.listdir(memes)
-    return 
+    word = ["krispykreme", "trains", "apples", "phones", "movies", "running", "cats", "doughnuts", "jesus", "ihop", "bojangles", "computer"]
+    return random.choice(word)
 
 def get_solved(puzzle, guesses):
     solved = ""
@@ -31,11 +30,11 @@ def get_guess():
         else:
             print("Type a single letter please!")
 
-def display_board(solved, strikes, limit, guess):
+def display_board(solved, strikes, limit):
     print()
     print("################")
     print()
-    print(solved + "            " + guess + " Strikes: " + str(strikes) +"/" + str(limit))
+    print(solved + "            "" Strikes: " + str(strikes) +"/" + str(limit))
     print()
     print("################")
 
@@ -63,13 +62,13 @@ def show_credits():
 ########################################################################
 """)
 def play():
-    limit = 5
+    limit = 10
     strikes = 0
     
     puzzle = get_puzzle()
     guesses = ""
     solved = get_solved(puzzle,guesses)
-    display_board(solved, strikes, limit, guess)
+    display_board(solved, strikes, limit)
 
     while solved != puzzle and strikes < limit:
         letter = get_guess()
@@ -79,7 +78,7 @@ def play():
 
         guesses += letter
         solved = get_solved(puzzle, guesses)
-        display_board(solved, strikes, limit, guess)
+        display_board(solved, strikes, limit)
     
     show_result(solved, puzzle, limit, strikes)
     
