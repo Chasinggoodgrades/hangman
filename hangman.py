@@ -14,7 +14,7 @@ def get_puzzle():
     if choice == 'random' or choice == 'rand':
         return random.choice(word)
     elif choice == 'guess' or choice == 'g':
-        word = input("Choose a word!")
+        word = input("Choose a word! : ")
         return word
 
 def splash_screen():
