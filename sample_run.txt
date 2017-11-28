@@ -14,7 +14,8 @@ Type "copyright", "credits" or "license()" for more information.
 What shall I call you today? Chase
 
 Type 'rand' or 'random' if you'd like your word to be random, If not; type 'guess' or 'g' so your partner can enter a word! :g
-Choose a word!trains
+
+Choose a word! : trains
 
 ################
 
