@@ -1,0 +1,127 @@
+ _   __     _                   _   __                        
+| | / /    (_)                 | | / /                        
+| |/ / _ __ _ ___ _ __  _   _  | |/ / _ __ ___ _ __ ___   ___ 
+|    \| '__| / __| '_ \| | | | |    \| '__/ _ \ '_ ` _ \ / _ | |\  \ |  | \__ \ |_) | |_| | | |\  \ | |  __/ | | | | |  __/
+\_| \_/_|  |_|___/ .__/ \__, | \_| \_/_|  \___|_| |_| |_|\___|
+                 | |     __/ |                                
+                 |_|    |___/                                 
+What shall I call you today? Chase
+Type 'rand' or 'random' if you'd like your word to be random, If not; type 'guess' or 'g' so your partner can enter a word! :g
+
+Choose a word!bangin
+
+################
+
+------             Strikes: 0/10
+
+################
+Guess a letter: ba
+Type a single letter please!
+Guess a letter: b
+
+################
+
+b-----             Strikes: 0/10
+
+################
+Guess a letter: a
+
+################
+
+ba----             Strikes: 0/10
+
+################
+Guess a letter: n
+
+################
+
+ban--n             Strikes: 0/10
+
+################
+Guess a letter: g
+
+################
+
+bang-n             Strikes: 0/10
+
+################
+Guess a letter: i
+
+################
+
+bangin             Strikes: 0/10
+
+################
+ CONGRATS!!! YOU WINN Chase!!! WOOOOHOOO!
+Would you like to play again? (y/n) y
+Type 'rand' or 'random' if you'd like your word to be random, If not; type 'guess' or 'g' so your partner can enter a word! :rand
+
+################
+
+--------             Strikes: 0/10
+
+################
+Guess a letter: t
+
+################
+
+-----t--             Strikes: 0/10
+
+################
+Guess a letter: r
+
+################
+
+-----t-r             Strikes: 0/10
+
+################
+Guess a letter: p
+
+################
+
+---p-t-r             Strikes: 0/10
+
+################
+Guess a letter: c
+
+################
+
+c--p-t-r             Strikes: 0/10
+
+################
+Guess a letter: o
+
+################
+
+co-p-t-r             Strikes: 0/10
+
+################
+Guess a letter: m
+
+################
+
+comp-t-r             Strikes: 0/10
+
+################
+Guess a letter: u
+
+################
+
+comput-r             Strikes: 0/10
+
+################
+Guess a letter: e
+
+################
+
+computer             Strikes: 0/10
+
+################
+ CONGRATS!!! YOU WINN Chase!!! WOOOOHOOO!
+Would you like to play again? (y/n) n
+
+########################################################################
+#Thank you for playing this wonderful game made by Chase P    11/16/17 #
+#If you have any ideas or recommendations that you'd like me to implant#
+#Feel free to email cpolan9926@greenvilleschools.us                    #
+########################################################################

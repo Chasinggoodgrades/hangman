@@ -9,7 +9,25 @@ import random
 
 def get_puzzle():
     word = ["krispykreme", "trains", "apples", "phones", "movies", "running", "cats", "doughnuts", "jesus", "ihop", "bojangles", "computer"]
-    return random.choice(word)
+    print()
+    choice = input("Type 'rand' or 'random' if you'd like your word to be random, If not; type 'guess' or 'g' so your partner can enter a word! :")
+    if choice == 'random' or choice == 'rand':
+        return random.choice(word)
+    elif choice == 'guess' or choice == 'g':
+        word = input("Choose a word!")
+        return word
+
+def splash_screen():
+    print("""
+
+ _   __     _                   _   __                        
+| | / /    (_)                 | | / /                        
+| |/ / _ __ _ ___ _ __  _   _  | |/ / _ __ ___ _ __ ___   ___ 
+|    \| '__| / __| '_ \| | | | |    \| '__/ _ \ '_ ` _ \ / _ \
+| |\  \ |  | \__ \ |_) | |_| | | |\  \ | |  __/ | | | | |  __/
+\_| \_/_|  |_|___/ .__/ \__, | \_| \_/_|  \___|_| |_| |_|\___|
+                 | |     __/ |                                
+                 |_|    |___/                                 """)
 
 def get_solved(puzzle, guesses):
     solved = ""
@@ -84,6 +102,7 @@ def play():
     
 playing = True
 
+splash_screen()
 name = input("What shall I call you today? ")
 
 while playing:
