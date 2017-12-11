@@ -1,0 +1,212 @@
+Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:14:34) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+=== RESTART: C:\Users\cpolan9926\Computer-Programming1\hangman\hangman.py ===
+
+
+ _   __     _                   _   __                        
+| | / /    (_)                 | | / /                        
+| |/ / _ __ _ ___ _ __  _   _  | |/ / _ __ ___ _ __ ___   ___ 
+|    \| '__| / __| '_ \| | | | |    \| '__/ _ \ '_ ` _ \ / _ | |\  \ |  | \__ \ |_) | |_| | | |\  \ | |  __/ | | | | |  __/
+\_| \_/_|  |_|___/ .__/ \__, | \_| \_/_|  \___|_| |_| |_|\___|
+                 | |     __/ |                                
+                 |_|    |___/                                 
+What shall I call you today? Chase
+
+Type 'rand' or 'random' if you'd like your word to be random, If not; type 'guess' or 'g' so your partner can enter a word! :g
+Choose a word!trains
+
+################
+
+------             Strikes: 0/10
+
+################
+Guess a letter: a
+
+################
+
+--a---             Strikes: 0/10
+
+################
+Guess a letter: i
+
+################
+
+--ai--             Strikes: 0/10
+
+################
+Guess a letter: t
+
+################
+
+t-ai--             Strikes: 0/10
+
+################
+Guess a letter: r
+
+################
+
+trai--             Strikes: 0/10
+
+################
+Guess a letter: n
+
+################
+
+train-             Strikes: 0/10
+
+################
+Guess a letter: s
+
+################
+
+trains             Strikes: 0/10
+
+################
+ CONGRATS!!! YOU WINN Chase!!! WOOOOHOOO!
+Would you like to play again? (y/n) y
+
+Type 'rand' or 'random' if you'd like your word to be random, If not; type 'guess' or 'g' so your partner can enter a word! :rand
+
+################
+
+--------             Strikes: 0/10
+
+################
+Guess a letter: f
+
+################
+
+--------             Strikes: 1/10
+
+################
+Guess a letter: g
+
+################
+
+--------             Strikes: 2/10
+
+################
+Guess a letter: a
+
+################
+
+--------             Strikes: 3/10
+
+################
+Guess a letter: i
+
+################
+
+--------             Strikes: 4/10
+
+################
+Guess a letter: c
+
+################
+
+c-------             Strikes: 4/10
+
+################
+Guess a letter: o
+
+################
+
+co------             Strikes: 4/10
+
+################
+Guess a letter: m
+
+################
+
+com-----             Strikes: 4/10
+
+################
+Guess a letter: t
+
+################
+
+com--t--             Strikes: 4/10
+
+################
+Guess a letter: d
+
+################
+
+com--t--             Strikes: 5/10
+
+################
+Guess a letter: j
+
+################
+
+com--t--             Strikes: 6/10
+
+################
+Guess a letter: e
+
+################
+
+com--te-             Strikes: 6/10
+
+################
+Guess a letter: l
+
+################
+
+com--te-             Strikes: 7/10
+
+################
+Guess a letter: z
+
+################
+
+com--te-             Strikes: 8/10
+
+################
+Guess a letter: w
+
+################
+
+com--te-             Strikes: 9/10
+
+################
+Guess a letter: p
+
+################
+
+comp-te-             Strikes: 9/10
+
+################
+Guess a letter: m
+
+################
+
+comp-te-             Strikes: 9/10
+
+################
+Guess a letter: m
+
+################
+
+comp-te-             Strikes: 9/10
+
+################
+
+Guess a letter: n
+
+################
+
+comp-te-             Strikes: 10/10
+
+################
+AWWW DANGG!!! You suck! Chase! Try again next time!
+Would you like to play again? (y/n) n
+
+########################################################################
+#Thank you for playing this wonderful game made by Chase P    11/16/17 #
+#If you have any ideas or recommendations that you'd like me to implant#
+#Feel free to email cpolan9926@greenvilleschools.us                    #
+########################################################################
+
+>>> 
